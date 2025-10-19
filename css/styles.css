@@ -522,14 +522,14 @@ width: 100%;
     color: #fff; ;
 }
 .block--skewed-right{
-    padding-bottom: var(--padding-vertical) + 4rem;
+    padding-bottom: calc(var(--padding-vertical) + 4rem) ; 
     /* which means whatever padding vertical is add 4rem to it */
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
 
 }
 /* for a block that is skewed to the left */
 .block--skewed-left{
-    padding-bottom: var(--padding-vertical) + 4rem;
+    padding-bottom: calc(var(--padding-vertical) + 4rem) ;
     /* which means whatever padding vertical is add 4rem to it */
     clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
 
