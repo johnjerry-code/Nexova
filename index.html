@@ -14,74 +14,48 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <section class="block block--dark block--skewed-right block-showcase">
+    <section class="block">
       <header class="block__header">
-        <h2>User-friendly Control Pannel</h2>
+        <h2>What Our Customers are Saying</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, rem?
+        </p>
       </header>
-      <div class="container grid grid--1x2">
-        <picture class="block-showcase__image">
-          <source
-            type="image/webp"
-            srcset="images/ipad.webp 1x, images/ipad@2x.webp 2x" />
+      <div class="container">
+         <div class="card testimonial">
+    <div class="grid grid--1x2">
+      <div class="testimonial__image">
+        <span class="icon-container icon-container--accent">
+      <svg class="icon icon--primary icon--white icon--small">
+        <use xlink:href="images/sprite.svg#quotes"></use>
+      </svg>
+    </span>
+              <img src="images/testimonial.jpg" alt="A happy, smilling customer">
+      </div>
 
-              <source
-            type="image/png"
-            srcset="images/ipad.png 1x, images/ipad@2x.png 2x" />
-          <img  src="images/ipad.png" alt=""
-        /></picture>
-<ul>
-  <li class="list">
-     <div class="media">
+        <blockquote class="quote">
+     <p class="quote__text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis rem expedita
+      necessitatibus officia unde iusto numquam temporibus recusandae totam
+      molestias?</p>
+      <footer>
+         <div class="media">
       <div class="media__image">
-        <svg class="icon icon--primary">
-          <use xlink:href="images/sprite.svg#computer"></use>
+        <svg class="icon icon--primary quote__line">
+          <use xlink:href="images/sprite.svg#line"></use>
         </svg>
       </div>
       <div class="media__body">
-        <h3 class="media__tittle">Easy Start & Managed Updates</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sit
-          aliquid placeat quasi quisquam eum optio illo! Minus, reprehenderit
-          qui enim dignissimos nulla voluptatum odio?
+        <h3 class="media__tittle quote__author">John Jerry</h3>
+        <p class="quote__organisation">
+         Nexova Company Ceo
         </p>
       </div>
     </div>
-  </li>
-  <li class="list">
-     <div class="media">
-      <div class="media__image">
-        <svg class="icon icon--primary">
-          <use xlink:href="images/sprite.svg#growth"></use>
-        </svg>
-      </div>
-      <div class="media__body">
-        <h3 class="media__tittle">Staging, Git & WP-CLI</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sit
-          aliquid placeat quasi quisquam eum optio illo! Minus, reprehenderit
-          qui enim dignissimos nulla voluptatum odio?
-        </p>
-      </div>
+      </footer>
+    </blockquote>
+    
     </div>
-  </li>
- <li class="list">
-     <div class="media">
-      <div class="media__image">
-        <svg class="icon icon--primary">
-          <use xlink:href="images/sprite.svg#wordpress"></use>
-        </svg>
-      </div>
-      <div class="media__body">
-        <h3 class="media__tittle">Dynamic Caching & More</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sit
-          aliquid placeat quasi quisquam eum optio illo! Minus, reprehenderit
-          qui enim dignissimos nulla voluptatum odio?
-        </p>
-      </div>
-    </div>
-  </li>
-</ul>
+   </div>
       </div>
     </section>
     <script src="js/main.js"></script>
